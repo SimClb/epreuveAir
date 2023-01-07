@@ -164,3 +164,38 @@ def bubbleSort(myList):
                 continue
                 
     return notDouble
+
+
+
+def splitFunction(list):
+  
+    start = [0]
+    finish = [lenCounter(list)]
+    words = []
+    counter = 0
+
+    # put the index of space in the list 
+    for i in list:
+        if str(i) == ' ':
+            # we put the space index in the finish words list
+            finish.append(counter)     
+
+        counter += 1
+
+
+        
+
+    # let's sort the spaces tab 
+    sorterFinish = bubbleSort(finish)
+    
+    # let's append the start words
+    for j in sorterFinish[0:(lenCounter(sorterFinish) - 1)]:
+        start.append(j + 1)
+
+    # let's find the words from the start and finish
+    for (i , j) in zip(start, sorterFinish):
+        words.append(list[i:j])
+
+
+
+    return words

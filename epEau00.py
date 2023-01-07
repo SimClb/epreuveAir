@@ -21,6 +21,9 @@ def splitFunction(list):
 
         counter += 1
 
+
+        
+
     # let's sort the spaces tab 
     sorterFinish = OurLib.bubbleSort(finish)
     
