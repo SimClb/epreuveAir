@@ -1,6 +1,7 @@
 import sys 
 import OurLib
 import colors
+# split en fonction 
 
 
 # functions 
