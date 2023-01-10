@@ -1,5 +1,7 @@
 import OurLib
 
-x = [1, 2, 3, 4]
+x = 'salut je suis le test'
 
-print(len(x))
+print(x.replace(x[2], 'ptn'))
+
+print(x)
