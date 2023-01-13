@@ -1,7 +1,12 @@
 import OurLib
+import sys
 
-x = 'salut je suis le test'
+fileName = sys.argv[1]
+table = []
+f = open(fileName, 'r')
+for i in f:
+    table.append(i)
 
-print(x.replace(x[2], 'ptn'))
+print(table)
 
-print(x)
+f.close()
