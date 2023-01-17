@@ -16,15 +16,15 @@ def pyramid(floor, char):
 # error management 
 
 if OurLib.lenCounter(sys.argv) != 3:
-    print('error.')
+    print('error. f')
     exit()
 
 if not OurLib.isNumericHomeMade(sys.argv[1]):
-    print('error.')
+    print('error. i')
     exit()
 
 if OurLib.isNumericHomeMade(sys.argv[2]):
-    print('error.')
+    print('error. k')
     exit()
 
 # exe 

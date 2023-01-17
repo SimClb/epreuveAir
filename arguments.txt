@@ -1,0 +1,14 @@
+"Bonjour les gars"
+"Crevette magique dans la mer des étoiles" "la"
+"je" "test" "des" "trucs" " "
+bonjour monsieur bonjour 
+"Hello milady,   bien ou quoi ??"
+10 11 12 20 "-5"
+"Michel" "Therese" "Benoit" "t"
+1 3 4 2 
+10 20 30 fusion 15 25 35 
+Michel Albert Therese Benoit 
+test.txt
+5 O
+fff
+

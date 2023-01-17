@@ -19,7 +19,7 @@ if OurLib.lenCounter(sys.argv) != 2:
 
 # check if we have a .txt file in arguements 
 if sys.argv[1][OurLib.lenCounter(sys.argv[1]) - 4:] != '.txt':
-    print('error. ff')
+    print('error.')
     exit()
 
 # check if the file exists

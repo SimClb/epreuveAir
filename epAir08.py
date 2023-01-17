@@ -10,9 +10,7 @@ index = 0
 def blenderList(list):
 
     list1 = list[:index]
-    print(list1)
     list2 = list[index + 1:]
-    print(list2)
     listFusion = []
 
     for i in list1:
@@ -59,7 +57,6 @@ for i in sys.argv[index + 2:]:
 
 # exe 
 
-print(index)
 blenderList(sys.argv[1:])
 
 # finished 

@@ -1,7 +1,18 @@
-import OurLib
-import sys
+import sys, os
+
+# Disable
+def blockPrint():
+    sys.stdout = open(os.devnull, 'w')
+
+# Restore
+def enablePrint():
+    sys.stdout = sys.__stdout__
 
 
-f = 5 
-print(type(f))
+print('This will print')
 
+blockPrint()
+print("This won't")
+
+enablePrint()
+print("This will too")
